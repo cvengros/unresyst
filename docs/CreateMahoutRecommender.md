@@ -33,7 +33,7 @@ mvn clean install
 ```
 mvn  install
 ```
-> > and look to the core/target/surefire-reports/. If you can find the cause of the problem there, you're a lucky person. If not, you can seek help on the `user@mahout.apache.org` mailing list as [I successfully  did.](http://comments.gmane.org/gmane.comp.apache.mahout.user/5881)
+and look to the `core/target/surefire-reports/`. If you can find the cause of the problem there, you're a lucky person. If not, you can seek help on the `user@mahout.apache.org` mailing list as [I successfully  did.](http://comments.gmane.org/gmane.comp.apache.mahout.user/5881)
   * Alternatively, you can try running the install without tests
 ```
 mvn -Dmaven.test.skip=true install
